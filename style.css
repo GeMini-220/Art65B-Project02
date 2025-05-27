@@ -26,14 +26,14 @@ nav {
     align-items: center;
 }
 
-.buttons {
+.nav-buttons {
     height: 40px;
     padding: 0 1vw;
     margin: 0 0 0 2vw;
     border: none;
 }
 
-.buttons:hover {
+.nav-buttons:hover {
     background-color: lightgray;
     cursor: pointer;
 }
@@ -80,4 +80,18 @@ nav {
     width: 80%;
     font-size: 10px;
     margin: 10px 0;
+}
+
+.title-button {
+    font-size: 3.5vw;
+    margin: 30px;
+    height: 7vw;
+    width: 40vw;
+    border: none;
+    border-radius: 3.5vw;
+}
+
+.title-button:hover {
+    background-color: rgb(204, 189, 189);
+    cursor: pointer;
 }
