@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     height: 40px;
     width: 100vw;
@@ -26,6 +31,11 @@ nav {
     padding: 0 1vw;
     margin: 0 0 0 2vw;
     border: none;
+}
+
+.buttons:hover {
+    background-color: lightgray;
+    cursor: pointer;
 }
 
 .about-button {
