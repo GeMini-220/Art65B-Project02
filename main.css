@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +51,7 @@ nav {
 
 .nav-title {
     font-size: 20px;
+    padding-left: 20px;
 }
 
 .footer {
@@ -103,6 +108,11 @@ nav {
     justify-content: space-between;
     align-items: left;
     padding: 20px;
+}
+
+.resource-link:hover {
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
 .img-placeholder {
