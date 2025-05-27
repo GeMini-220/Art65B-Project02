@@ -1,1 +1,6 @@
 /* STYLE FOR YOU MAIN.HTML */
+* {
+    margin: none;
+    padding: none;
+}
+
