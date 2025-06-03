@@ -70,10 +70,12 @@ nav {
 
 .main {
     padding: 40px 0 0 0;
+    background: #833AB4;
+background: linear-gradient(56deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 .contents {
-    background-color: lightgray;
+    background-color: rgba(255, 255, 255, 0.818);
     width: 65%;
     padding: 5%;
     margin: auto;
