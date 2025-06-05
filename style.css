@@ -55,6 +55,10 @@ nav {
     cursor: pointer;
 }
 
+.nav-buttons:active {
+    background-color: gray;
+}
+
 .about-button {
     width: 100px;
 }
@@ -121,5 +125,12 @@ background: linear-gradient(56deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1
 
 .title-button:hover {
     background-color: rgba(31, 31, 31, 0.226);
+    transform: scale(1.01);
     cursor: pointer;
+}
+
+.title-button:active {
+    background-color: rgba(31, 31, 31, 0.55);
+    transform: scale(0.95);
+    transition: ease-out .1s;
 }
